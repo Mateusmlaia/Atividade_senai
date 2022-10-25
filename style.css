@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: #1E1C21;
     height: 91px;
 }
@@ -24,10 +24,10 @@ header{
     align-items: center;
 }
 
-.menu{
+.menu {
     width: 700px;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .menu a {
@@ -37,11 +37,11 @@ header{
     font-family: "Roboto";
 }
 
-.icone-menu{
+.icone-menu {
     height: 40px;
 }
 
-#barras{
+#barras {
     display: none;
 }
 
@@ -54,14 +54,14 @@ header{
     background-size: cover;
 }
 
-.posicionamento-banner{
+.posicionamento-banner {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 100%;
 }
 
-.conteudo-banner{
+.conteudo-banner {
     width: 497px;
     height: 237px;
     display: flex;
@@ -76,15 +76,15 @@ header{
     font-size: 80px;
 }
 
-.conteudo-banner p{
+.conteudo-banner p {
     color: white;
     font-family: "Roboto";
     font-size: 25px;
 }
 
-.conteudo-banner a{
+.conteudo-banner a {
     padding: 15px;
-    background-color: #c31616; 
+    background-color: #c31616;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -97,7 +97,7 @@ header{
 .jogos {
     height: 120px;
     background-color: black;
-    
+
 }
 
 .posicionamento-jogos {
@@ -124,7 +124,7 @@ header{
     font-size: 27px;
 }
 
-.espaco-produtos{
+.espaco-produtos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -132,13 +132,13 @@ header{
     margin-top: 25px;
 }
 
-.cardnews{
+.cardnews {
     width: 15em;
     height: 22.5em;
     background: linear-gradient(180deg, rgba(83, 83, 83, 0.5) 0%, #000000 100%);
     color: #fff;
     margin-bottom: 2em;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0),0px 0px 30px rgb(0, 0, 0);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0), 0px 0px 30px rgb(0, 0, 0);
 }
 
 .cardnews {
@@ -159,13 +159,15 @@ header{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
+
 }
 
-.texto-card h3, .texto-card p {
+.texto-card h3,
+.texto-card p {
     margin: 0;
 }
 
-.cardnews h3{
+.cardnews h3 {
     font-size: 24px;
     font-weight: 600;
 }
@@ -180,13 +182,20 @@ header{
     height: 35px;
     text-align: center;
     line-height: 2;
-    
+
     background-color: #C31616;
     border-radius: 5px;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.cardnews a:hover {
+    background-color: #c0b3b3;
+    color: #000000;
+    transform: scale(1.10);
+
 }
 
 .secao-sobre {
@@ -254,21 +263,21 @@ footer {
 }
 
 .sociais p {
-    font-family: 'Titillium Web';    
+    font-family: 'Titillium Web';
 }
 
 .sociais form {
     width: 100%;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.sociais input[type="email"]{
+.sociais input[type="email"] {
     height: 37px;
-    width: 65%;  
-    border-radius: 0px; 
-    border-style: none; 
+    width: 65%;
+    border-radius: 0px;
+    border-style: none;
     text-indent: 5px;
 }
 
@@ -277,7 +286,7 @@ footer {
     font-weight: bold;
 }
 
-.sociais button{
+.sociais button {
     width: 35%;
     color: white;
     background-color: #001F70;
@@ -298,21 +307,22 @@ footer {
     font-size: 23px;
 }
 
-@media screen and (max-width: 1200px){
-    .container-grid{
+@media screen and (max-width: 1200px) {
+    .container-grid {
         width: 85vw;
     }
 
-    .banner h1{
-        color:#FFD700
+    .banner h1 {
+        color: #FFD700
     }
 }
 
-@media screen and (max-width: 1000px){
-    #barras{
+@media screen and (max-width: 1000px) {
+    #barras {
         display: inline-block;
     }
-    .menu{
+
+    .menu {
         display: none;
         position: absolute;
         top: 91px;
@@ -324,14 +334,17 @@ footer {
 
         background-color: #1E1C21;
         height: 400px;
+        width:300px;
     }
-
-    .menu a{
+    
+    .menu a {
         font-size: 20px;
     }
-
-    .cabecalho{
+    .menu a:hover{
+    text-decoration:underline ;
+    transform:translate(1.5)
+}
+    .cabecalho {
         position: relative;
     }
 }
-
